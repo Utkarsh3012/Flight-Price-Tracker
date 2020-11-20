@@ -37,7 +37,7 @@ def notification():
     s.starttls() 
   
     #  FOR Authentication 
-    s.login("utkarshutest@gmail.com", "utk@30dec") 
+    s.login("utkarshutest@gmail.com", "password") 
   
     # email body  
     message = "Check the website the prices just went down!!"
